@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Demo Site</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet">
+    
+  <!-- Custom font directly in HTML -->
+  <style>
+    @font-face {
+      font-family: "Custom-BoldItalic";
+      src: url("fonts/Vipnagorgialla-Bd-It.otf") format("opentype");
+      font-weight: bold;
+      font-style: italic;
+    }
+    
+    @font-face {
+      font-family: "Custom-Reg";
+      src: url("fonts/Vipnagorgialla-Rg.otf") format("opentype");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    /* Apply to body or any element */
+    h1 {
+      font-family: "Custom-BoldItalic", sans-serif;
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="logos/simmetric_engine_logo-128x128.png" alt="Logo" height="40" class="me-2">
+      Simmetricsoft Studio
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="bg-light py-5">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold">SIMMETRICSOFT STUDIO</h1>
+      <img src="logos/simmetric_engine_logo-128x128.png" alt="Logo" class="me-2">
+      <p class="lead">This is a website about my development studio, where I am currently working on my main game currently codenamed "Project Carnegie."</p>
+      <a href="#" class="btn btn-primary btn-lg">Coming Soon!</a>
+    </div>
+  </header>
+
+  <!-- CONTENT SECTION -->
+  <section class="container my-5">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <h3>Simulation</h3>
+        <p>I am a huge fan of real-time strategy and simulation games. I grew up on the Rollercoaster Tycoon series, SimCity, and other similar franchises.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Isometric</h3>
+        <p>I love the isometric art style of a lot of older games. It adds a lot of depth and detail to an otherwise two-dimensional game.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Pixel Art</h3>
+        <p>While most 90s/early 2000s games of this style used pre-rendered grahpics, I love pixel art more than anything - especially the old GameBoy color style. I hope to implement this into my games.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARD GRID -->
+  <!--
+  <section class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://picsum.photos/400?1" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card One</h5>
+            <p class="card-text">A simple Bootstrap card with an image.</p>
+            <a href="#" class="btn btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://picsum.photos/400?2" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card Two</h5>
+            <p class="card-text">Bootstrap makes layouts clean and easy.</p>
+            <a href="#" class="btn btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://picsum.photos/400?3" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card Three</h5>
+            <p class="card-text">This is the third Bootstrap card example.</p>
+            <a href="#" class="btn btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2025 MySite — Built with Bootstrap</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+</body>
+</html>
+
